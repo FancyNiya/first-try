@@ -1,0 +1,5 @@
+def move(n-1, b, a, c):
+      if n-1 == 1:
+             print('move', b, '-->', c )
+             return
+     move(n-2, b, c, a) 
